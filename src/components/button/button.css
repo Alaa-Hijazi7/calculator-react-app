@@ -1,4 +1,4 @@
-.Button {
+.button {
   background: #212638;
   width: 64px;
   height: 66px;
@@ -8,9 +8,10 @@
   justify-content: center;
   font-size: 60px;
   cursor: pointer;
+  transition: all 0.2s;
 }
 
-.Button.Zero {
+.button.Zero {
   grid-column: 1 / span 2;
   border-radius: 35px;
   position: relative;
@@ -18,7 +19,7 @@
   padding-left: 43px;
   width: 148px;
 }
-.Button.function {
+.button.function {
   margin-right: 1px;
   background: #8490ff;
   font-style: normal;
@@ -30,18 +31,18 @@
   color: #212638;
 }
 
-.Button.operator {
+.button.operator {
   background: #34509e;
 }
 
-.Button:hover {
+.button:hover {
   background: #373b4d;
 }
 
-.Button.function:hover {
+.button.function:hover {
   background: #5162fd;
 }
 
-.Button.operator:hover {
+.button.operator:hover {
   background: #5469a8;
 }
